@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "start": "node --import tsx src/main.ts",
+    "start": "node init && node --import tsx src/main.ts",
     "audio-check": "node --import tsx src/audioCheck.ts"
   },
   "dependencies": {

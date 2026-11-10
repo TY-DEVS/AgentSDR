@@ -32,7 +32,6 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # env files (can opt-in for committing if needed)
-.env*
 !.env.example
 
 # vercel
@@ -89,3 +88,4 @@ service-account*.json
 
 # Real copies of scripts/examples/* (mailboxes, sender knowledge, test person)
 /scripts/local/
+config.bat
